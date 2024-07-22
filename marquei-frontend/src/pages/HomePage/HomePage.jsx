@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom"
 import { Helmet } from "react-helmet"
 import "./styleHomePage.css"
 import BottomBar from "../components/BottomBar/BottomBar.jsx"
+import TopBar from "../components/TopBar/TopBar.jsx"
 
 export function HomePage() {
     const navigate = useNavigate()
@@ -43,6 +44,7 @@ export function HomePage() {
             </Helmet>
             {Object.keys(user).length !== 0 ?
                 <>
+                    <TopBar></TopBar>
                     <BottomBar></BottomBar>
                     <div className="text-center">
                         <h1>Oi</h1>

@@ -1,0 +1,23 @@
+#TopBarGeral {
+    padding: 0;
+}
+
+#TopBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+.direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    gap: 10%;
+}
