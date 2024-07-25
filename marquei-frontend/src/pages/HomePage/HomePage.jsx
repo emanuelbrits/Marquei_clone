@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import { supabase } from '../../lib/helper/supabaseClient'
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { Helmet } from "react-helmet"
 import "./styleHomePage.css"
 import BottomBar from "../components/BottomBar/BottomBar.jsx"

@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.formProduto {
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 50vh;
+
+    input {
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+#areaBotao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #botaoSalvar {
+        width: 100%;
+        background-color: orangered;
+        border: 0;
+    }
+}

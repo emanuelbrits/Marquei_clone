@@ -8,6 +8,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 2%;
+    background-color: orangered;
+    height: 5vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     h1 {
         margin: 0;
@@ -20,4 +23,9 @@
     align-items: center;
     width: 30%;
     gap: 10%;
+}
+
+#botaoSair {
+    border: 1px solid white;
+    background-color: rgb(0, 0, 0);
 }
